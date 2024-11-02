@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Bloggrify</title>
+        <link>https://mistral.bloggrify.com</link>
+        <description>lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</description>
+        <lastBuildDate>Sat, 02 Nov 2024 19:19:42 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>bloggrify</generator>
+        <language>en</language>
+        <copyright>All rights reserved 2024, Bloggrify</copyright>
+        <item>
+            <title><![CDATA[Adding mermaid support]]></title>
+            <link>https://mistral.bloggrify.com/mermaid</link>
+            <guid>https://mistral.bloggrify.com/mermaid</guid>
+            <pubDate>Thu, 13 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introducing MermaidJS Support: Create Stunning Diagrams in Bloggrify]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/santorin.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mathematics with KaTeX]]></title>
+            <link>https://mistral.bloggrify.com/katex</link>
+            <guid>https://mistral.bloggrify.com/katex</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Announcing KaTeX Support: Easily Embed Mathematical Formulas in Bloggrify]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/lyon.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Custom components]]></title>
+            <link>https://mistral.bloggrify.com/custom-components</link>
+            <guid>https://mistral.bloggrify.com/custom-components</guid>
+            <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhance your markdown files with custom components.]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/iceland.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <link>https://mistral.bloggrify.com/about</link>
+            <guid>https://mistral.bloggrify.com/about</guid>
+            <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[About this theme.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[All features]]></title>
+            <link>https://mistral.bloggrify.com/features</link>
+            <guid>https://mistral.bloggrify.com/features</guid>
+            <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover all the features of Bloggrify.]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/tokyo.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Markdown cheat sheet]]></title>
+            <link>https://mistral.bloggrify.com/markdown</link>
+            <guid>https://mistral.bloggrify.com/markdown</guid>
+            <pubDate>Sat, 10 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a markdown cheat sheet. It shows you how to use markdown to format your blog posts on Bloggrify.]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/thailand.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Customizing Your Blog: Using and Creating Themes]]></title>
+            <link>https://mistral.bloggrify.com/posuere</link>
+            <guid>https://mistral.bloggrify.com/posuere</guid>
+            <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to theme your blog with Bloggrify.]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/france.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[First official blog of Bloggrify ]]></title>
+            <link>https://mistral.bloggrify.com/launching</link>
+            <guid>https://mistral.bloggrify.com/launching</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Launching the first official blog of Bloggrify]]></description>
+            <enclosure url="https://mistral.bloggrify.comcovers/andalousia.jpg" length="0" type="image/jpg"/>
+        </item>
+    </channel>
+</rss>
