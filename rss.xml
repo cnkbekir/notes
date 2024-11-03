@@ -4,7 +4,7 @@
         <title>cnkbekir notes</title>
         <link>https://notes.cnkbekir.dev</link>
         <description>lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</description>
-        <lastBuildDate>Sun, 03 Nov 2024 11:33:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Nov 2024 11:39:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>bloggrify</generator>
         <language>en</language>
@@ -14,14 +14,6 @@
             <link>https://notes.cnkbekir.dev/nuxt-studio-kullanarak-blog-sitesi</link>
             <guid>https://notes.cnkbekir.dev/nuxt-studio-kullanarak-blog-sitesi</guid>
             <pubDate>Sun, 03 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Custom components]]></title>
-            <link>https://notes.cnkbekir.dev/custom-components</link>
-            <guid>https://notes.cnkbekir.dev/custom-components</guid>
-            <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhance your markdown files with custom components.]]></description>
-            <enclosure url="https://notes.cnkbekir.devcovers/iceland.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[All features]]></title>
