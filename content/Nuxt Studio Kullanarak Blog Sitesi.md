@@ -1,13 +1,13 @@
 ---
-id: "3"
-title: "Nuxt Studio Kullanarak Blog Sitesi"
-description: ""
-date: "2024-11-03"
+id: '3'
+title: Nuxt Studio Kullanarak Blog Sitesi
+description: ''
+date: '2024-11-03'
 categories:
   - web
 tags:
   - nuxt
-cover: ""
+cover: ''
 ---
 
 Geçen yıl Obsidian'da tuttuğum notları Obsidian publish kullanarak yayınlamıştım. Daha sonra ücretini ödemek istemedim ve site kapandı. Ücretsiz bir şekilde yayınlamak ve Nuxt kullanmak istemiştim, bu yazımda nasıl yaptığımı yazıcam.
@@ -21,24 +21,29 @@ git clone <https://github.com/bloggrify/demo-mistral.git> bloggrify
 
 yeni repo oluşturdum <https://github.com/new>
 oluşturduktan sonra bilgisayarımda oluşturduğum klasörde şu komutları çalıştırdım:
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin <https://github.com/cnkbekir/notes.git>
-git push -u origin main
+`git init`
+
+`git add .`
+
+`git commit -m "first commit"`
+
+`git branch -M main`
+
+`git remote add origin` [`https://github.com/cnkbekir/notes.git`](https://github.com/cnkbekir/notes.git)
+
+`git push -u origin main`
 
 push işleminde şöyle bi hata aldım:
-error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
-send-pack: unexpected disconnect while reading sideband packet
+`error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 send-pack: unexpected disconnect while reading sideband packet`
 
 Şu komutu yazdıktan sonra hata çözüldü, push işlemini tekrar yaptım:
-git config --global http.postBuffer 157286400
+`git config --global http.postBuffer 157286400`
 
 cloudflare'de DNS ayarlarıma CNAME kaydı ekledim;
-name: notes
-Content: cnkbekir.github.io
-Proxied
+
+- name: notes
+- Content: cnkbekir.github.io
+- Proxied
 
 bloggrify demosundan gelen .github/workflows/deploy.yml dosyasını sildim.
 
@@ -48,7 +53,7 @@ menüde project -> deploy sayfasında Deploy butonuna tıkladım. İlk işlemden
 ilk deployment işlemi pnpm versiyon hatası verdi. (bu hataları github reposunda actions içerisinde görebiliyoruz.)
 repo'daki .github/workflows/studio.yml dosyasında pnpm/action-setup\@v4 kısmına with şeçeneği ekledim:
 
-```yml
+```yaml
 uses: pnpm/action-setup@v4
     with:
         version: 9
